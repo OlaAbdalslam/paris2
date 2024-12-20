@@ -11,23 +11,30 @@ body{
 /* header */
 header{
     position: absolute;
-    width: 95;
+    width: 95%;
     z-index: 100;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 5px;
 }
-.logo{
-    width: 15%;
-    height: 15%;
+
+.logo {
+    width: 200px;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 140%;
+}
+
 .font{
     font-family: "Caveat", cursive;
 }
 header ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     list-style: none;
 }
@@ -38,9 +45,8 @@ header ul li{
 header ul li a{
     padding: 6px 15px;
     border-radius: 20px;
-    text-decoration: none;
-    color: #102039;
 }
+
 header ul li a:hover{
     background-color: #102039;
     color: #fff;
@@ -49,8 +55,8 @@ header ul li a:hover{
     border-radius: 50px;
     border: none;
     outline: none;
-    height: 38px;
-    padding: 5px 10px;
+    height: 30px;
+    padding: 0 10px;
     box-shadow: 20px 8px 20px rgba(24, 42, 97, 0.75);
 }
 .search button{
@@ -65,7 +71,6 @@ header ul li a:hover{
 }
 .search button:hover{
     background-color: #3fd0d4;
-    color: #102039;
     background-image: url("img/magnifying-blue.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -76,6 +81,14 @@ header ul li a:hover{
     margin-top:11px;
     transform: translateX(1000px);
 }
+
+/*
+.button {
+    transform: translateX(1128px);
+}
+from a'laa
+*/
+
 /* header end */
 /* style header-photo start */
 .header-photo img{
@@ -200,7 +213,7 @@ hr{
 }
 .basic-info{
     width: 300px;
-    height: 710px;
+    height: 610px;
     padding: 20px;
     margin: 93px 20px auto;
     border-radius: 20px;
@@ -218,7 +231,7 @@ hr{
 }
 .map iframe{
     border: 0;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 100%;
     max-width: 300px;
     height: 270px;
@@ -248,9 +261,9 @@ hr{
     color:#fff;
     border: #d9d9d9;
     border-radius: 25px;
-    height: 40px;
-    width: 110px;
-    font-size: 15px solid;
+    height: 50px;
+    width: 130px;
+    font-size: 19px solid;
     cursor: pointer;
     margin: 20px auto;
     display: block;
